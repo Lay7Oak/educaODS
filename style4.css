@@ -1,0 +1,387 @@
+
+#px{
+    text-align: center;
+}
+
+
+#caixa{
+    min-height: 200px;
+    max-width: 30cm;
+    margin: 10px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+
+#menu2,#menu{
+  margin-left: 20%;
+  margin-right: 2%;
+  
+    
+}
+
+  a:link{
+
+    text-decoration: none;
+    color:rgb(182, 13, 13);
+}
+
+
+ul{
+    list-style-type: none;
+    float: right;
+   
+    
+}
+
+li{
+    float: left;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 6px 10px 6px 10px;;
+    font-size: 19px;
+    margin-left: 0;
+    background-color:aliceblue;
+}
+
+
+header{
+
+background-color: rgb(182, 13, 13);
+padding: 15px;
+text-align: center;
+color: aliceblue;
+font-size: 17px;
+margin: 10px auto;
+
+}
+
+#qrt{
+font-size: 5rem;
+margin-right: 20px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 50px;
+background-color: white;
+color: red;
+}
+
+
+
+
+#p1{
+    font-size: 18px;
+    margin-top: 0;
+    
+}
+
+#text{
+    clear: both;
+    margin: 10px;
+    line-height: 25px;
+    padding: 17px;
+    background-color: aliceblue;
+    text-indent: 20px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+
+
+
+#by{
+ text-align: right;
+ color: rgb(182, 13, 13);
+}
+
+
+
+
+
+footer{
+    margin: 10px;
+    padding: 17px;
+    background-color: aliceblue;
+    text-indent: 20px;
+    clear: both;
+    text-align: center;
+}
+
+
+/*Página 2*/
+
+
+#caixa2{
+    min-height: 200px;
+    max-width: 30cm;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:white;
+    margin:auto;
+    
+}
+
+#menu22,#menu12{
+    margin-left: 20%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+      
+  }
+  
+  
+
+.sect{
+
+    font-size: 2rem;
+    color: aliceblue;
+    background-color:orange;
+    text-align: center;
+    padding: 5px;
+    margin-top: 45px;
+    margin-bottom: 0;
+    clear: both;
+    font-size: 25px;
+
+}
+
+#principal{
+   
+    margin: 10px;
+    padding: 17px;
+    background-color: aliceblue;
+    text-indent: 20px;
+    font-size: 19px;
+    text-align: center;
+}
+
+#vid{
+ padding-top: 15px;
+ 
+}
+
+
+
+.relato{
+    margin-top: 5px;
+    margin-bottom: 13px;
+    line-height: 25px;
+    padding: 30px;
+    background-color:aliceblue;
+    font-size: 19px;
+    text-align: justify;
+    margin:10px;
+    
+    
+}
+
+.ft{
+    width: 15%;
+    float: left;
+    border-radius: 10px;
+    margin-right: 15px;
+    }
+
+
+#qm{
+    
+    margin: 10px;
+    padding: 10px;
+    background-color:aliceblue;
+    font-size: 19px;
+    text-align: justify;
+    float:left
+
+}
+
+/*Página 3*/
+
+
+
+
+#caixa3{
+    padding-bottom: 45px;
+    margin: auto;
+    border-radius: 10px;
+    background-color:aliceblue;
+    max-width: 31cm;
+}
+
+#menu23,#menu13{
+
+    margin-right: 15%
+      
+  }
+  
+
+  #text3{
+    clear: both;
+    line-height: 23px;
+    padding: 10px;
+    background-color: aliceblue;
+    text-indent: 20px;
+    font-size: 19px;
+    text-align: center;
+    margin: auto;
+    max-width: 30cm;
+}
+
+
+.sect3{
+
+    font-size: 2rem;
+    color: aliceblue;
+    background-color:orange;
+    text-align: center;
+    padding: 5px;
+    margin:30px 7px 20px 7px;
+    clear: both;
+    font-size: 25px;
+    
+}
+
+.principal3{
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+    line-height: 60px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+#inclus{
+    margin-left: 10%;
+}
+
+#acess{
+float: right;
+margin-right: 10%;
+
+}
+
+
+
+#qm{
+    margin:10px;
+    padding: 10px;
+    background-color:aliceblue;
+    font-size: 19px;
+    text-align: center;
+    float: none;
+
+}
+
+
+#qmf{
+float: none;
+width: 15%;
+border-radius: 10px;
+}
+
+#mf{
+float: left;
+padding-top: 40px;
+margin-left: 10%;
+}
+
+
+@media all and (max-width: 820px) {
+    #text {
+        text-align: center;
+    }
+
+    #menu, #menu2, li, ul {
+        margin: 3px;
+        padding: 3px;
+        font-size: 15px;
+        float: none;
+        text-align: center;
+        border-top: none;
+        line-height: 25px;
+    }
+
+    #Caixa, #Caixa2 {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 829px) {
+    #text {
+        text-align: center;
+    }
+
+    #menu12, #menu22 {
+        margin: 3px;
+        padding: 3px;
+        font-size: 15px;
+        float: none;
+        text-align: center;
+        border-top: none;
+        line-height: 25px;
+    }
+
+    #principal, #relatos {
+        display: block;
+    }
+
+    #vid {
+        width: 100%;
+        height: 330px;
+    }
+}
+
+@media all and (max-width: 1489px) {
+    #text {
+        text-align: center;
+    }
+
+    #menu13, #menu23 {
+        margin: 3px;
+        padding: 3px;
+        font-size: 15px;
+        float: none;
+        text-align: center;
+        border-top: none;
+        line-height: 25px;
+    }
+
+    #Caixa3 {
+        margin: auto 0;
+    }
+
+    body {
+        float: none;
+        display: block;
+    }
+
+    .principal3 {
+        display: block;
+        float: none;
+        padding: auto;
+        align-items: center;
+        margin: 0;
+    }
+
+    #inclus, #acess {
+        width: 80%;
+        margin: 15px auto;
+        display: block;
+        float: none;
+        padding: auto;
+        align-items: center;
+    }
+
+    html {
+        margin: auto;
+    }
+
+    #mf {
+        padding-top: 3%;
+    }
+}
+
+
