@@ -1,61 +1,109 @@
 
+  
+  html{
+    margin-top: 0;
+    
+   }
+
+   body{
+        margin: 0;
+        
+    }
+
+
+    .fixo{
+        min-height: 90px;
+        background-color: rgb(1, 22, 41);
+        margin-top: 0;
+        top:0;
+        position: sticky;
+        z-index: 100%;
+    }
+
+    .fixo ul li a:hover {
+        background-color: rgb(182,13,13);
+        padding: 6px 10px 6px 10px;
+
+    }
+
 
 #px{
     text-align: center;
 }
 
+ #caixaex{
+    min-height: 200px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    
+ }
 
 #caixa{
-    min-height: 200px;
-    max-width: 30cm;
-    margin: 10px;
+    padding-bottom: 45px;
+    padding: right 20px;
     margin: auto;
-    padding: 10px;
+    margin-top: 70px;
+    border-radius: 10px;
+    background-color:white;
+    max-width: 31cm;
     
-    
+}
+
+#ME:link{
+    color:rgb(3, 179, 15);
 }
 
 
 #menu2,#menu{
-  margin-left: 20%;
-  margin-right: 2%;
+    margin-left: 20%;
+    margin-right: 2%;
+    
+  }
   
-    
-}
+    a:link{
+  
+      text-decoration: none;
+      color:hsl(0, 43%, 99%);
+  }
 
-  a:link{
-
-    text-decoration: none;
-    color:rgb(182, 13, 13);
-}
-
-
-ul{
-    list-style-type: none;
-    float: right;
-   
-    
-}
-
-li{
-    float: left;
-    margin: 5px;
-    margin-top: 20px;
-    padding: 6px 10px 6px 10px;;
-    font-size: 19px;
-    margin-left: 0;
-    background-color:aliceblue;
-}
-
+  a:visited{
+    color: rgb(247, 187, 76);
+  }
+  
+  
+  ul{
+      list-style-type: none;
+      
+      
+  }
+  
+  li{
+      float: left;
+      margin: 5px;
+      margin-top: 20px;
+      padding: 6px 10px 6px 10px;
+      border-radius:3px;
+      font-size: 19px;
+      margin-left: 0;
+      border-color: orange;
+      border-bottom-style: ridge;
+      border-top-style: ridge;
+      font-family: 'Cutive Mono', monospace;
+      
+  }
+  
 
 header{
-
+min-height: 250px;
 background-color: rgb(182, 13, 13);
-padding: 15px;
+padding-top: 63px;
 text-align: center;
 color: aliceblue;
 font-size: 17px;
-margin: 10px auto;
+margin-bottom: 25px;
+padding-bottom: 3%;
 
 }
 
@@ -72,27 +120,33 @@ color: red;
 }
 
 
-
-
-#p1{
-    font-size: 18px;
+.p1{
+    font-size: 20px;
     margin-top: 0;
+    text-align: center;
+    clear: both;}
     
-}
+
 
 #text{
     clear: both;
-    margin: 10px;
-    line-height: 25px;
-    padding: 17px;
+    line-height: 23px;
+    padding: 30px;
+    padding-top: 3px;
     background-color: aliceblue;
     text-indent: 20px;
-    font-size: 19px;
+    font-size: 20px;
     text-align: justify;
-    border-radius: 10px;
+    margin: auto;
+    max-width: 30cm;
+    margin-top: 0;
+    margin-bottom: 13px;
+    
+
+
+    
+    
 }
-
-
 
 
 #by{
@@ -101,20 +155,17 @@ color: red;
 }
 
 
-
-
-
 footer{
-    margin: 10px;
+    color: white;
     padding: 17px;
-    background-color: aliceblue;
+    background-color: rgb(1, 22, 41);
     text-indent: 20px;
     clear: both;
     text-align: center;
 }
 
 
-/*Página 2*/
+/*Parte 2*/
 
 
 #caixa2{
@@ -125,63 +176,91 @@ footer{
     border-radius: 10px;
     background-color:white;
     margin:auto;
+    padding-right: 25px;
+    padding-left: 25px;
     
 }
 
-#menu22,#menu12{
+#menu12{
     margin-left: 20%;
     margin-right: 2%;
     margin-bottom: 10px;
-      
+    
   }
   
-  
-
 .sect{
 
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: aliceblue;
-    background-color:orange;
+    background-color: rgb(182, 13, 13);
     text-align: center;
     padding: 5px;
-    margin-top: 45px;
+    margin-top: 0px;
     margin-bottom: 0;
     clear: both;
-    font-size: 25px;
-
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    font-family: 'Cutive Mono', monospace;
 }
 
 #principal{
-   
-    margin: 10px;
-    padding: 17px;
+    clear: both;
+    line-height: 23px;
+    padding: 10px;
     background-color: aliceblue;
     text-indent: 20px;
     font-size: 19px;
     text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 30cm;
     border-radius: 10px;
+    
 }
 
 #vid{
- padding-top: 15px;
- 
+ padding: 15px;
+
+}
+hr{
+    border-color: orange;
+    margin: 0;
 }
 
 
-
 .relato{
-    margin-top: 5px;
+    margin:10px;
     margin-bottom: 13px;
     line-height: 25px;
     padding: 30px;
-    background-color:aliceblue;
+    background-color:white;
+    font-size: 19px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    
+   
+}
+
+.relatoex{
+    margin-top:0;
+    margin-bottom: 13px;
+    line-height: 25px;
+    background-color:white;
     font-size: 19px;
     text-align: justify;
     margin:10px;
     border-radius: 10px;
-    
-    
+    border:solid orange 1px;
 }
+
+#disp{
+    display:flex;
+
+}
+
+
+
 
 .ft{
     width: 15%;
@@ -195,23 +274,23 @@ footer{
     
     margin: 10px;
     padding: 10px;
-    background-color:aliceblue;
+    background-color:white;
     font-size: 19px;
     text-align: justify;
     float:left
 
 }
 
-/*Página 3*/
+/*Parte 3*/
 
 
 
 
 #caixa3{
-    padding-bottom: 45px;
+    padding-bottom: 5px;
     margin: auto;
     border-radius: 10px;
-    background-color:aliceblue;
+    background-color:white;
     max-width: 31cm;
 }
 
@@ -225,7 +304,7 @@ footer{
   #text3{
     clear: both;
     line-height: 23px;
-    padding: 10px;
+    padding: 20px;
     background-color: aliceblue;
     text-indent: 20px;
     font-size: 19px;
@@ -233,40 +312,44 @@ footer{
     margin: auto;
     max-width: 30cm;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
 }
 
 
 .sect3{
-
-    font-size: 2rem;
-    color: aliceblue;
-    background-color:orange;
+    background-color:rgb(182, 13, 13);
+    font-size: 1.50rem;
+    color:white;
     text-align: center;
     padding: 5px;
-    margin:30px 7px 20px 7px;
+    margin-top: 45px;
+    margin-bottom: 0;
     clear: both;
-    font-size: 25px;
-    
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    font-family: 'Cutive Mono', monospace;
+}
+
+h2,h3{
+    padding: 1px;
+    margin: 0;
 }
 
 .principal3{
-    float: left;
-    margin: 10px;
+    clear: both;
+    line-height: 23px;
     padding: 20px;
     background-color: aliceblue;
-    line-height: 60px;
-    width: 400px;
-    margin-bottom: 50px;
-}
-
-#inclus{
-    margin-left: 10%;
-}
-
-#acess{
-float: right;
-margin-right: 10%;
-
+    text-indent: 20px;
+    font-size: 19px;
+    text-align: center;
+    margin: auto;
+    max-width: 30cm;
+    border-radius: 0 0 10px 10px;
+    border:solid rgb(167, 169, 171) 1px;
+    border-top: none;
+    
+    
 }
 
 
@@ -274,11 +357,11 @@ margin-right: 10%;
 #qm{
     margin:10px;
     padding: 10px;
-    background-color:aliceblue;
+    background-color:white;
     font-size: 19px;
     text-align: center;
     float: none;
-
+    box-shadow: 5px 5px 10px gray;
 }
 
 
@@ -295,6 +378,9 @@ margin-left: 10%;
 }
 
 
+
+/*Responsividade*/
+
 @media all and (max-width: 820px) {
     #text {
         text-align: center;
@@ -303,17 +389,36 @@ margin-left: 10%;
     #menu, #menu2, li, ul {
         margin: 3px;
         padding: 3px;
-        font-size: 15px;
-        float: none;
+        font-size: 16px;
         text-align: center;
         border-top: none;
         line-height: 25px;
+        border-radius: 3px;
+        padding: 3px;
     }
 
     #Caixa, #Caixa2 {
-        margin: 0;
+        margin: auto;
+        
     }
+
+   
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media all and (max-width: 829px) {
     #text {
@@ -321,22 +426,27 @@ margin-left: 10%;
     }
 
     #menu12, #menu22 {
-        margin: 3px;
+        margin-top: 1px;
         padding: 3px;
         font-size: 15px;
-        float: none;
         text-align: center;
         border-top: none;
         line-height: 25px;
     }
 
-    #principal, #relatos {
+    #principal, .relato,#disp{
         display: block;
+        
+        
     }
 
     #vid {
-        width: 100%;
-        height: 330px;
+        width: 95%;
+        height: 55vw;
+        display: block;
+        float: none;
+
+        
     }
 }
 
@@ -349,7 +459,6 @@ margin-left: 10%;
         margin: 3px;
         padding: 3px;
         font-size: 15px;
-        float: none;
         text-align: center;
         border-top: none;
         line-height: 25px;
