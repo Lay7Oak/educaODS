@@ -10,6 +10,14 @@
         
     }
 
+    .fontx{
+
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    }
+
 
     .fixo{
         min-height: 90px;
@@ -51,7 +59,8 @@
     
 }
 
-#ME:link{
+.ME:link{
+    
     color:rgb(3, 179, 15);
 }
 
@@ -99,6 +108,7 @@ header{
 min-height: 250px;
 background-color: rgb(182, 13, 13);
 padding-top: 63px;
+padding: 30px;
 text-align: center;
 color: aliceblue;
 font-size: 17px;
@@ -131,12 +141,15 @@ color: red;
 #text{
     clear: both;
     line-height: 23px;
-    padding: 30px;
+    padding: 40px;
     padding-top: 3px;
     background-color: aliceblue;
-    text-indent: 20px;
-    font-size: 20px;
-    text-align: justify;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+
     margin: auto;
     max-width: 30cm;
     margin-top: 0;
@@ -272,7 +285,7 @@ hr{
 
 #qm{
     
-    margin: 10px;
+    
     padding: 10px;
     background-color:white;
     font-size: 19px;
@@ -313,6 +326,11 @@ hr{
     max-width: 30cm;
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    letter-spacing: 0.1rem;
 }
 
 
@@ -328,6 +346,7 @@ hr{
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
     font-family: 'Cutive Mono', monospace;
+    
 }
 
 h2,h3{
@@ -355,7 +374,7 @@ h2,h3{
 
 
 #qm{
-    margin:10px;
+    
     padding: 10px;
     background-color:white;
     font-size: 19px;
@@ -375,6 +394,11 @@ border-radius: 10px;
 float: left;
 padding-top: 40px;
 margin-left: 10%;
+text-align: center;
+align-items: center;
+font-family: "Lato", sans-serif;
+font-weight: 350;
+letter-spacing: 0.1rem;
 }
 
 
@@ -402,21 +426,16 @@ margin-left: 10%;
         
     }
 
+    .fontx{
+        text-align: center;
+    }
+   
+    #mf{
+        margin-left:0;
+    }
    
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -446,7 +465,14 @@ margin-left: 10%;
         display: block;
         float: none;
 
-        
+    }
+
+    .fontx{
+        text-align: center;
+    }
+
+    #mf{
+        margin-left:0;
     }
 }
 
@@ -496,6 +522,14 @@ margin-left: 10%;
 
     #mf {
         padding-top: 3%;
+    }
+
+    .fontx{
+        text-align: center;
+    }
+
+    #mf{
+        margin-left:0;
     }
 }
 
